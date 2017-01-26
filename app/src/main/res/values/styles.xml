@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- title layout -->
+    <style name="title" >
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/title_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/title_left</item>
+        <item name="android:layout_marginTop">@dimen/title_top</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+
+    <!-- Style for the LinearLayout structures of the contact information, i.e. the combined icon
+    and text appearance, like in address, URL, telephone number,...-->
+
+    <style name="contact">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+
+
+    </style>
+
+    <!-- Style for the contact text information, being the address, URL, telephone number,...-->
+
+    <style name="contact_name">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
+    <!-- Style for the contact icons, being the address, URL, telephone number,...-->
+
+    <style name="contact_icon">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
+    </style>
+
+    <style name="ratingBar" parent="@android:style/Widget.Holo.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/title_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/title_left</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:rating">4</item>
+    </style>
+
+
+
+</resources>

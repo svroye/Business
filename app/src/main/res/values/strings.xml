@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Business</string>
+
+    <!-- name of the store -->
+    <string name="store_name">\'t Proevertje, Beer store</string>
+
+    <!-- address of the store -->
+    <string name="address">Palmstraat 97, Malheur, BE</string>
+
+    <!-- website of the store -->
+    <string name="url"> www.tproevertje.be</string>
+
+    <!-- telephone number of the store -->
+    <string name="telephone"> 0499/11 34 52 </string>
+
+    <!-- opening hours of the store -->
+    <string name="hours"> Mon - Sat : 10h00 - 18h00 </string>
+
+    <!-- email address of the store -->
+    <string name="email"> svroye@tproevertje.be </string>
+
+    <!-- small description of the store -->
+    <string name="description"> Beer store \"\'t Proevertje\" is one of the biggest beer stores in Belgium.
+        All the classic belgian beers, ranging from the famous belgian \'Trappisten\' (Westmalle, Westvleteren, Orval,...)
+        to the well-known strong beers (Leffe, Grimbergen, Duvel, ...) to the fruit beers (Lindemans, Liefmans,...),
+        but also imported beers (Guinness, Gordon,..) are available. You can buy them per bottle, or if you really thirsty,
+        per crate (24 bottles).</string>
+</resources>
